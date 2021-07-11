@@ -7,6 +7,8 @@ import { ProductCrudComponent } from "./views/product-crud/product-crud.componen
 
 // import {  } from "";
 
+//Realizado import RouterModule
+//Implementado rotas
 const routes: Routes = [{
   path: "",
   component: HomeComponent
