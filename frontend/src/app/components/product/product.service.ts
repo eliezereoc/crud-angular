@@ -31,5 +31,11 @@ export class ProductService {
     return this.http.post<Product>(this.baseUrl, product);
   }
 
+  //Realiza requisção para a url e recebe de volta 
+  //um array de dados.
+  read(): Observable<Product[]> {
+    return this.http.get<Product[]>(this.baseUrl);
+  }
+
 
 }
