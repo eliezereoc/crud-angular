@@ -24,6 +24,16 @@
       "name": "Produto de Teste",
       "price": 125.98,
       "id": 5
+    },
+    {
+      "name": "Resistor de 10k",
+      "price": "0,90",
+      "id": 6
+    },
+    {
+      "name": "Tripot 10k",
+      "price": "1,23",
+      "id": 7
     }
   ]
 }
