@@ -14,8 +14,8 @@ export class ProductService {
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
  
-  //configura snackbar para ser 
-  //injetado em um componente
+  //configura snackbar para ser injetado em um componente
+  //é a mensagem que é apresentada no canto superior
   showMessage(msg: string): void {
     this.snackBar.open(msg, 'X', {
       duration: 3000,
