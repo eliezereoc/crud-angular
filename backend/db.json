@@ -34,6 +34,16 @@
       "name": "Tripot 10k",
       "price": "1,23",
       "id": 7
+    },
+    {
+      "name": "Lapis preto",
+      "price": "2,50",
+      "id": 8
+    },
+    {
+      "name": "Toalha de mesa",
+      "price": "50,00",
+      "id": 9
     }
   ]
 }
