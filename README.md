@@ -97,9 +97,8 @@ ________________________________________________________________________________
 	       Os elementos na tag a ajusta o icone dentro do menu.
 	       Injetar em product-read productService e implementar ngOnInit.
 	       Implementar metodo Read em product.service.ts.
-
-		   Registrar rotas de create, update e delete.
-    > Registrar rotas de create, update e delete.        
+		  
+    Registrar rotas de create, update e delete.        
 
 7. Criar as views:
 	> Home
@@ -128,8 +127,18 @@ ________________________________________________________________________________
 	 **update()** que atualiza um produto específico.  
 	 **delete()** que exclui um produto.
 
-	Configurar snack-bar para ser injetado em outros componentes.
-
-10. Implementar estilos em styles.css
-	> Class msg-success, incluir em showMessege de product.services.  
-	> msg-erro, incluir em showMessege de product.services.  
+	Configurar snack-bar para ser injetado em outros componentes.  
+	Implementar **pip** e metodo **errorHandler()** para exibir mensagen de erros.
+	> Class msg-success e msg-erro em styles.css, incluir em showMessege de product.services.  
+	 
+10. Ajustando titulos.
+	> Em components/template/header criar arquivo heafer-data.model.ts.  
+	> Em components/template/header/ criar o serviço header:  
+			ng g s components/template/header/header  
+	> Em header.service criar os metodos get e set.
+	> No componente header.ts, injetar header.service e implementar metodo get. 
+	> Em componente header.html, realize a interpolação de title, icon e router.
+	> Vá em no componentes home.ts e product.ts injete header.service e passe 
+	tito, icon e router com base no componente. 
+	
+	
