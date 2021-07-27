@@ -13,7 +13,17 @@
     {
       "id": 3,
       "name": "Sansung S20+",
-      "price": "5010.89"
+      "price": "4010.89"
+    },
+    {
+      "name": "Bicicleta Grande",
+      "price": "1500",
+      "id": 4
+    },
+    {
+      "name": "Parafuso 10mm",
+      "price": "0.30",
+      "id": 5
     }
   ]
 }

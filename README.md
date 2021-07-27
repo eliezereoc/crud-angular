@@ -99,7 +99,7 @@ ________________________________________________________________________________
 	       Implementar metodo Read em product.service.ts.
 
 		   Registrar rotas de create, update e delete.
-            
+    > Registrar rotas de create, update e delete.        
 
 7. Criar as views:
 	> Home
@@ -129,3 +129,7 @@ ________________________________________________________________________________
 	 **delete()** que exclui um produto.
 
 	Configurar snack-bar para ser injetado em outros componentes.
+
+10. Implementar estilos em styles.css
+	> Class msg-success, incluir em showMessege de product.services.  
+	> msg-erro, incluir em showMessege de product.services.  
