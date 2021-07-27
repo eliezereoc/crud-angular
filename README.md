@@ -84,6 +84,9 @@ ________________________________________________________________________________
 		
 		ng g c components/product/product-read
 	
+	> Product Update
+
+		ng g c components/product/product-update
 	
 	  :warning: Atenção ao elemento mat-sidenav, ele que
 	       realiza a reinderização do nav.
@@ -112,5 +115,11 @@ ________________________________________________________________________________
 
 		ng g s components/product/product
 	
-	:warning: Criar metodo que realiza inserção do produto.
-	          Configurar snack-bar para ser injetado em outros componentes.
+	:warning:Implementar metodos  
+	> **create()** que realiza inserção do produto.  
+	 **read()** que realiza a leitura de todos os produtos.  
+	 **metodo** readById(id) que realiza a leitura de um produtos específico.  
+	 **update()** que atualiza um produto específico.  
+	 **delete** que exclui um produto.
+
+	Configurar snack-bar para ser injetado em outros componentes.
