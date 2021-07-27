@@ -10,6 +10,7 @@ import { Product } from '../products.model';
 export class ProductReadComponent implements OnInit {
 
   products: Product[] = [];
+  
   //passa para displayedColumns quais objetos 
   //objetos devem ser exibidos
   displayedColumns = ['id', 'name', 'price', 'action'];
@@ -25,5 +26,4 @@ export class ProductReadComponent implements OnInit {
       console.log(products);      
     })
   }
-
 }

@@ -13,27 +13,12 @@
     {
       "id": 3,
       "name": "Sansung S20+",
-      "price": 5000.89
+      "price": "5010.89"
     },
     {
-      "name ": "Geladeira Inox",
-      "price": "19013.99",
+      "name": "Geadeira Inox",
+      "price": "3100.00",
       "id": 4
-    },
-    {
-      "name": "Produto de Teste",
-      "price": 125.98,
-      "id": 5
-    },
-    {
-      "name": "Resistor de 10k",
-      "price": "0,90",
-      "id": 6
-    },
-    {
-      "name": "Tripot 10k",
-      "price": "1,23",
-      "id": 7
     }
   ]
 }

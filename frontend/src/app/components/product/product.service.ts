@@ -13,7 +13,7 @@ export class ProductService {
   baseUrl = "http://localhost:3001/products";
 
   constructor(private snackBar: MatSnackBar, private http: HttpClient) { }
- 
+
   //configura snackbar para ser injetado em um componente
   //é a mensagem que é apresentada no canto superior
   showMessage(msg: string): void {
@@ -21,7 +21,7 @@ export class ProductService {
       duration: 3000,
       horizontalPosition: "right",
       verticalPosition: "top"
-    })    
+    })
   }
 
   //Realiza a inserção do produto e recebe de volta 
@@ -35,6 +35,25 @@ export class ProductService {
   //um array de dados.
   read(): Observable<Product[]> {
     return this.http.get<Product[]>(this.baseUrl);
+  }
+
+  //Metodo que realiza requisição passando 
+  //somento o ID e recebe somente o ID desejado
+  readById(id: string | null): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.get<Product>(url);
+  }
+
+  //Metoro que realiza altualização de produto.
+  //Recebe o produto atualizado do front-end
+  update(product: Product): Observable<Product> {
+    const url = `${this.baseUrl}/${product.id}`;
+    return this.http.put<Product>(url, product);
+  }
+
+  delete(id: string): Observable<Product> {
+    const url = `${this.baseUrl}/${id}`;
+    return this.http.delete<Product>(url)
   }
 
 
