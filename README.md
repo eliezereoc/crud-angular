@@ -133,12 +133,13 @@ ________________________________________________________________________________
 	 
 10. Ajustando titulos.
 	> Em components/template/header criar arquivo heafer-data.model.ts.  
-	> Em components/template/header/ criar o serviço header:  
+	> Em components/template/header/ criar o serviço header: 
+	
 			ng g s components/template/header/header  
+			
 	> Em header.service criar os metodos get e set.
 	> No componente header.ts, injetar header.service e implementar metodo get. 
 	> Em componente header.html, realize a interpolação de title, icon e router.
 	> Vá em no componentes home.ts e product.ts injete header.service e passe 
-	tito, icon e router com base no componente. 
-	
+	title, icon e router com base no componente. 
 	
