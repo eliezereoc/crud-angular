@@ -87,12 +87,18 @@ ________________________________________________________________________________
 	> Product Update
 
 		ng g c components/product/product-update
+
+	> Product Delete
+
+		ng g c components/product/product-delete
 	
 	  :warning: Atenção ao elemento mat-sidenav, ele que
 	       realiza a reinderização do nav.
 	       Os elementos na tag a ajusta o icone dentro do menu.
 	       Injetar em product-read productService e implementar ngOnInit.
 	       Implementar metodo Read em product.service.ts.
+
+		   Registrar rotas de create, update e delete.
             
 
 7. Criar as views:
@@ -120,6 +126,6 @@ ________________________________________________________________________________
 	 **read()** que realiza a leitura de todos os produtos.  
 	 **metodo** readById(id) que realiza a leitura de um produtos específico.  
 	 **update()** que atualiza um produto específico.  
-	 **delete** que exclui um produto.
+	 **delete()** que exclui um produto.
 
 	Configurar snack-bar para ser injetado em outros componentes.
