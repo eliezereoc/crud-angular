@@ -135,7 +135,7 @@ ________________________________________________________________________________
 	> Em components/template/header criar arquivo heafer-data.model.ts.  
 	> Em components/template/header/ criar o serviço header: 
 	
-			ng g s components/template/header/header  
+		ng g s components/template/header/header  
 			
 	> Em header.service criar os metodos get e set.
 	> No componente header.ts, injetar header.service e implementar metodo get. 
