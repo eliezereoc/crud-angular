@@ -1,5 +1,5 @@
 # CRUDE Angular - Cadastro de Produto
-> Status do Projeto: Em desenvolvimento :warning: 
+> Status do Projeto: Em desenvolvimento **:heavy_check_mark:**
 ## Curso JS Moderno COD3R.
 ### Desenvolvido em Angular 9 
 #### _BD json-server._
