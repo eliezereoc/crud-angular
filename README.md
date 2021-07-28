@@ -1,5 +1,5 @@
 # CRUDE Angular - Cadastro de Produto
-> Status do Projeto: Comcluido **:heavy_check_mark:**
+> Status do Projeto: Concluido **:heavy_check_mark:**
 ## Curso JS Moderno COD3R.
 ### Desenvolvido em Angular 9 
 #### _BD json-server._
