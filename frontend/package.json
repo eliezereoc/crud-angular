@@ -26,7 +26,8 @@
     "tslib": "^2.1.0",
     "zone.js": "~0.11.4",
     "set-value": ">=4.0.1",
-    "nth-check": ">=2.0.1"
+    "nth-check": ">=2.0.1",
+    "ansi-regex": ">=5.0.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~12.0.3",
@@ -43,6 +44,7 @@
     "typescript": "~4.2.3",
     "tar": ">=6.1.9",
     "set-value": ">=4.0.1",
-    "nth-check": ">=2.0.1"
+    "nth-check": ">=2.0.1",
+    "ansi-regex": ">=5.0.1"
   }
 }
