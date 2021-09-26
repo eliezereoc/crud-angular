@@ -29,7 +29,12 @@ import { ProductReadComponent } from './components/product/product-read/product-
 import localePt from '@angular/common/locales/pt';
 import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
-import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component'
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
+import { UserReadComponent } from './components/users/user-read/user-read.component';
+import { UserCreateComponent } from './components/users/user-create/user-create.component';
+import { UserDeleteComponent } from './components/users/user-delete/user-delete.component';
+import { UserUpdateComponent } from './components/users/user-update/user-update.component';
+import { UsersCrudComponent } from './views/users-crud/users-crud.component'
 registerLocaleData(localePt);
 
 
@@ -45,7 +50,12 @@ registerLocaleData(localePt);
     ProductCreateComponent,
     ProductReadComponent,
     ProductUpdateComponent,
-    ProductDeleteComponent
+    ProductDeleteComponent,
+    UserReadComponent,
+    UserCreateComponent,
+    UserDeleteComponent,
+    UserUpdateComponent,
+    UsersCrudComponent
   ],
   imports: [
     BrowserModule,
