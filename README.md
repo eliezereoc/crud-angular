@@ -32,7 +32,7 @@ ________________________________________________________________________________
 
 2. Criar o projeto responedendo as peguntas.
 	
-		ng g new "nome do projeto"
+		ng new "nome do projeto"
 
 3. Adionar o angular material.
 	
