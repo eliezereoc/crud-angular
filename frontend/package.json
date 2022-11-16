@@ -30,7 +30,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~13.3.9",
+    "@angular-devkit/build-angular": "^14.2.9",
     "@angular/cli": "~13.3.9",
     "@angular/compiler-cli": "~13.3.11",
     "@types/jasmine": "~3.6.0",
@@ -42,6 +42,7 @@
     "karma-coverage": "~2.0.3",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "^1.5.0",
+    "loader-utils": "^3.2.0",
     "nth-check": ">=2.0.1",
     "set-value": ">=4.0.1",
     "tar": ">=6.1.9",
